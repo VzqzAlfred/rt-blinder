@@ -1,10 +1,26 @@
-    * {
+    *{
         box-sizing: border-box;
     }
     :root{
         --text: 'Poiret One'
     }
+    header{
+        background-color: hsla(50, 10%, 30%, .8)
+    }
 
-    h1{
-        font-family: var(--text);
+    .index-img{
+        background-repeat: no-repeat;
+        width: 100%;
+        background-attachment: fixed;
+        
+    }
+
+    .main{
+        display: flex;
+        font-size: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+
     }
